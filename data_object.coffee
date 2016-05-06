@@ -7,18 +7,19 @@ numberfy = (val) ->
   # Convert val into empty string if it is undefined or null
   if !val?
     val = ''
+
   if isNaN(val)
+    # replace any commas with colon because Danish!
+    val = val.replace(/,/g, ".")
     # check for negative signs or parenthases.
     is_negative = if (val.match("-") || val.match(/\(.*\)/)) then -1 else 1
-    # remove any commas
-    val = val.replace(/,/g, "")
     # return just the number and make it negative if needed.
     +(val.match(/\d+.?\d*/)[0]) * is_negative
   else
     val
 
 # Uses moment.js to parse and format the date into the correct format
-parseDate = (val) -> moment(val).format('MM/DD/YYYY') if val && val.length > 0
+parseDate = (val) -> moment(val,'DD-MM-YYYY').format('MM/DD/YYYY') if val && val.length > 0
 
 
 # This class does all the heavy lifting.
@@ -29,11 +30,16 @@ class window.DataObject
 
   # Parse base csv file as JSON. This will be easier to work with.
   # It uses http://papaparse.com/ for handling parsing
-  parse_csv: (csv) -> @base_json = Papa.parse(csv, {"header": true})
+  parse_csv: (csv) -> @base_json = unescape(encodeURIComponent(Papa.parse(csv, {
+    "header": true,
+    "delimiter": ';',
+    "encoding": 'ISO-8859-1',
+    "skipEmptyLines": true
+  })))
   fields: -> @base_json.meta.fields
   rows: -> @base_json.data
 
-
+s
   # This method converts base_json into a json file with YNAB specific fields based on
   #   which fields you choose in the dropdowns in the browser.
   #
