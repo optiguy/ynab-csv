@@ -2,8 +2,9 @@
 
 
 Tool for making your CSV files ready to import into YNAB.
+This is a fork of http://halloffame.github.io/ynab-csv/
 
-http://halloffame.github.io/ynab-csv/
+This is the Danish version and has been updated to accept Nordea NetBank exports.
 
 **NOTE:** currently works best in Chrome. See "Known Issues" below for more details.
 
