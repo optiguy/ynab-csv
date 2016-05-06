@@ -1,14 +1,99 @@
-Date,Recorded at,Amount,Pending,Description,Category folder,Category,Memo
-2014/02/16,2014-02-16 04:55:45 PM -0700,-5.29,FALSE,"お支払金額",Food & Drink,Fast Food,
-2014/02/21,2014-02-20 09:18:10 PM -0700,-24.75,FALSE,Rmcf Commerce,Food & Drink,Dessert,
-2014/03/01,2014-03-01 01:57:19 PM -0700,-9,FALSE,Perfectly Sweet,Food & Drink,Other,
-2014/03/15,2014-03-15 01:59:52 PM -0700,-9.25,FALSE,Edwards Sdm,Culture,Movies,Lego movie
-2014/03/16,2014-03-15 10:38:45 PM -0700,-4.64,FALSE,Shell Service Station,Transportation,Gas,
-2014/03/15,2014-03-15 12:18:06 PM -0700,-5.29,FALSE,In-N-Out Burger,Food & Drink,Fast Food,
-2014/03/17,2014-03-17 04:47:51 PM -0700,-5.6,FALSE,USPS,Uncategorized,Unknown,Stamps
-2014/03/18,2014-03-17 05:05:59 PM -0700,-9.8,FALSE,USPS,Uncategorized,Unknown,Package
-2014/03/23,2014-03-22 05:47:40 PM -0700,160,FALSE,Transfer,Financial,Other,
-2014/03/29,2014-03-28 08:05:28 PM -0700,-5.5,FALSE,Subway,Food & Drink,Fast Food,5 dollar footlong
-2014/03/31,2014-03-30 10:33:51 PM -0700,-8.33,FALSE,Staterbros,Food & Drink,Groceries,
-2014/04/05,2014-04-05 04:54:34 PM -0700,-3.45,FALSE,Yogurt Universe,Food & Drink,Other,
-2014/04/19,2014-04-19 10:54:29 AM -0700,-11.5,FALSE,Subway,Food & Drink,Fast Food,
+
+Bogført;Tekst;Rentedato;Beløb;Saldo
+09-05-2016;Bgs Budgetkonto;06-05-2016;-432,00;1271,05
+03-05-2016;danmark;03-05-2016;1313,00;1703,05
+02-05-2016;Bgs Budgetkonto;02-05-2016;-1067,02;390,05
+30-04-2016;Andet pengeinstitut 5 h�vninger;01-05-2016;-40,00;1457,07
+29-04-2016;Bgs Budgetkonto;29-04-2016;-20000,00;1497,07
+29-04-2016;Dankort-nota Aldi 005       47893;29-04-2016;-94,40;21497,07
+29-04-2016;Roskilde Tekniske Sk;29-04-2016;20171,95;21591,47
+29-04-2016;Faktura 611396 Bjark               Meddelnr. 02547718616120;29-04-2016;1530,60;1419,52
+29-04-2016;Faktura 611381 Bjark               Meddelnr. 02547690916120;29-04-2016;2756,71;-111,08
+29-04-2016;Gebyr, overf. 31.03 - 29.04.2016   Netbank, stk. 1;01-05-2016;-1,00;-2867,79
+29-04-2016;Gebyr .;01-05-2016;-3,00;-2866,79
+27-04-2016;Bgs Siri min elskede;27-04-2016;-2000,00;-2863,79
+26-04-2016;Dankort-nota Roskilde E-cig 19371;26-04-2016;-193,00;-863,79
+26-04-2016;Fr. automat den 25.04. kl. 17.33   6819 eksnr.     8661;26-04-2016;-700,00;-670,79
+25-04-2016;Dankort-nota Netto Kbh. Vej 54843;25-04-2016;-874,33;29,21
+25-04-2016;Dankort-nota Elgiganten 307 20626;25-04-2016;-3058,00;903,54
+25-04-2016;Dankort-nota Statoil - 1096 33555;25-04-2016;-412,88;3961,54
+25-04-2016;Dankort-nota Fakta 330      81194;25-04-2016;-118,00;4374,42
+25-04-2016;Dankort-nota Fakta 330      81186;25-04-2016;-209,03;4492,42
+25-04-2016;Dankort-nota Jysk D042      38420;25-04-2016;-999,00;4701,45
+21-04-2016;Dankort-nota SPAR BORREVEJL 85718;21-04-2016;-37,00;5700,45
+21-04-2016;Dankort-nota H&M 803          582;21-04-2016;-1851,95;5737,45
+20-04-2016;Dankort-nota Havannahuset   40447;20-04-2016;-399,00;7589,40
+20-04-2016;Dankort-nota Kvickly Roskil 32957;20-04-2016;-139,95;7988,40
+19-04-2016;Kim & Sekita Alma;19-04-2016;1500,00;8128,35
+19-04-2016;Dankort-nota Kiosk Bien - C 58920;19-04-2016;-74,00;6628,35
+19-04-2016;Dankort-nota Dalle Valle    50019;19-04-2016;-252,00;6702,35
+18-04-2016;Bgs Siri min elskede;18-04-2016;-2000,00;6954,35
+18-04-2016;Bgs Darup AuSkadecenter;16-04-2016;-3833,75;8954,35
+18-04-2016;Dankort-nota MobilePay      51535;18-04-2016;-185,00;12788,10
+18-04-2016;Dankort-nota MobilePay      93475;18-04-2016;-150,00;12973,10
+18-04-2016;Dankort-nota Burger King    62906;18-04-2016;-60,00;13123,10
+18-04-2016;Dankort-nota MobilePay      32509;18-04-2016;-249,00;13183,10
+15-04-2016;Dankort-nota Aldi 005       38260;15-04-2016;-159,20;13432,10
+14-04-2016;Dankort-nota Fakta 387      20736;14-04-2016;-64,00;13591,30
+13-04-2016;Visa køb DKK      62,45            PAYPAL *GEOFFKELL                  Den 10.04;13-04-2016;-62,45;13655,30
+13-04-2016;Dankort-nota Kirkens Korsh� 12006;13-04-2016;-110,00;13717,75
+12-04-2016;Bgs Fysio;12-04-2016;-499,80;13827,75
+12-04-2016;Visa køb DKK     471,10            PAYPAL *GAZIZMAD4IT                Den 09.04;12-04-2016;-471,10;14327,55
+12-04-2016;Visa køb DKK     184,91            PAYPAL *GEOFFKELL                  Den 07.04;12-04-2016;-184,91;14798,65
+12-04-2016;Dankort-nota Igen           41230;12-04-2016;-244,00;14983,56
+12-04-2016;Fr. automat den 09.04. kl. 17.36   6819 eksnr.     7943;12-04-2016;-300,00;15227,56
+11-04-2016;Dankort-nota Shell Service  15487;11-04-2016;-50,95;15527,56
+11-04-2016;Fr. automat den 08.04. kl. 15.15   6819 eksnr.     7907;11-04-2016;-600,00;15578,51
+08-04-2016;Dankort-nota Dyreklinikken V 5909;08-04-2016;-686,84;16178,51
+08-04-2016;Dankort-nota Uno X Automat  66132;08-04-2016;-433,68;16865,35
+07-04-2016;Dankort-nota Statoil - 1087 57233;07-04-2016;-37,00;17299,03
+05-04-2016;Bgs Ejerfor. Paradiset;05-04-2016;-600,00;17336,03
+05-04-2016;Bgs Bjarke Vensyssel;05-04-2016;-2500,00;17936,03
+05-04-2016;Dankort-nota sliplet.dk     48959;05-04-2016;-267,95;20436,03
+05-04-2016;Fr. automat den 04.04. kl. 19.54   6819 eksnr.     7712;05-04-2016;-2000,00;20703,98
+05-04-2016;Fr. automat den 02.04. kl. 20.42   6819 eksnr.     7623;05-04-2016;-400,00;22703,98
+05-04-2016;Dankort-nota ComputerCity   15149;05-04-2016;-428,00;23103,98
+04-04-2016;Bgs Til Tedi - Gameboy;02-04-2016;-800,00;23531,98
+04-04-2016;Dankort-nota REMA 1000 Ros 99506;04-04-2016;-1065,73;24331,98
+04-04-2016;Dankort-nota Maxi Zoo Roski 36966;04-04-2016;-517,85;25397,71
+04-04-2016;Dankort-nota Elgiganten 306 50214;04-04-2016;-244,00;25915,56
+04-04-2016;Dankort-nota Gustav Wieds V 87635;04-04-2016;-60,00;26159,56
+04-04-2016;Dankort-nota MobilePay      39876;04-04-2016;-330,00;26219,56
+04-04-2016;Dankort-nota Gustav Wieds V 38485;04-04-2016;-100,00;26549,56
+04-04-2016;Dankort-nota Statoil - 1087 24435;04-04-2016;-70,95;26649,56
+04-04-2016;Dankort-nota 7-Eleven B 026 19398;04-04-2016;-37,00;26720,51
+04-04-2016;Dankort-nota Kebab Grill Ho 67498;04-04-2016;-51,00;26757,51
+01-04-2016;Dankort-nota Burger King    14060;01-04-2016;-78,00;26808,51
+01-04-2016;Holbæk Forsyning A/S               Meddelnr. 02222438816092;01-04-2016;365,03;26886,51
+31-03-2016;Andet pengeinstitut  1 hævning;01-04-2016;-8,00;26521,48
+31-03-2016;Renter;01-04-2016;-0,45;26529,48
+31-03-2016;Ovf. til, konto nr. 0729-934-704;31-03-2016;-340,00;26529,93
+31-03-2016;Dankort-nota AarhusK. Parke 30042;31-03-2016;-201,00;26869,93
+31-03-2016;Dankort-nota 7-Eleven B 038  3638;31-03-2016;-37,00;27070,93
+31-03-2016;Roskilde Tekniske Sk;31-03-2016;20031,63;27107,93
+31-03-2016;FK-Feriepenge;31-03-2016;8008,30;7076,30
+31-03-2016;Dankort-nota Chez Oli/Oli-B 20440;31-03-2016;-175,00;-932,00
+30-03-2016;Dankort-nota Uno X Automat  64471;30-03-2016;-414,90;-757,00
+30-03-2016;Dankort-nota Netto Århushal 35382;30-03-2016;-112,18;-342,10
+29-03-2016;Fr. automat den 23.03. kl. 18.46   6819 eksnr.     7120;29-03-2016;-500,00;-229,92
+29-03-2016;Overførsel, vedr. produktskift;29-03-2016;270,08;270,08
+29-03-2016;Overførsel, vedr. produktskift;29-03-2016;-270,08;
+29-03-2016;Andet pengeinstitut 2 hævninger;29-03-2016;-16,00;270,08
+29-03-2016;Renter;29-03-2016;-1,05;286,08
+29-03-2016;Dankort-nota Mc Donalds Ros 52209;29-03-2016;-115,00;287,13
+29-03-2016;Dankort-nota FAkta Christia 20520;29-03-2016;-56,00;402,13
+22-03-2016;Dankort-nota Fakta 387       1001;22-03-2016;-45,00;458,13
+22-03-2016;Overførsel;21-03-2016;2800,00;503,13
+22-03-2016;Dankort-nota SHELL ROSKILDE 17895;22-03-2016;-38,50;-2296,87
+22-03-2016;Dankort-nota MobilePay       8896;22-03-2016;-150,00;-2258,37
+21-03-2016;Fr. automat den 18.03. kl. 16.36   3103 eksnr.     3822;21-03-2016;-1000,00;-2108,37
+21-03-2016;Dankort-nota SB ROS         92143;21-03-2016;-94,00;-1108,37
+21-03-2016;Dankort-nota Statoil - 1087 35579;21-03-2016;-148,00;-1014,37
+21-03-2016;Dankort-nota La Rustica     41111;21-03-2016;-237,00;-866,37
+21-03-2016;Dankort-nota Statoil - 1087 37639;21-03-2016;-27,00;-629,37
+18-03-2016;Dankort-nota L�kkerland     26347;18-03-2016;-115,67;-602,37
+18-03-2016;Fr. automat den 17.03. kl. 08.40   6819 eksnr.     6765;18-03-2016;-500,00;-486,70
+18-03-2016;Dankort-nota Statoil - 1087 27476;18-03-2016;-35,00;13,30
+17-03-2016;Visa kortgebyr  4571228012375612;18-03-2016;-340,00;48,30
+17-03-2016;Dankort-nota HANDELSSK. KAN 49196;17-03-2016;-24,00;388,30
+11-03-2016;Roskilde Tekniske Sk;11-03-2016;412,30;412,30
