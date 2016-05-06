@@ -34,7 +34,7 @@ class window.DataObject
     "header": true,
     "delimiter": ';',
     "dynamicTyping": true,
-    "encoding": 'ISO-8859-1',
+    "encoding": 'windows-1252',
     "skipEmptyLines": true
   })
   fields: -> @base_json.meta.fields
@@ -76,6 +76,8 @@ class window.DataObject
                   tmp_row[col] = number if number > 0
                 else
                   tmp_row[col] = number
+              when 'Memo'
+                tmp_row[col] = 'Saldo: ' + cell
               else tmp_row[col] = cell
 
           value.push(tmp_row)
@@ -84,10 +86,11 @@ class window.DataObject
   converted_csv: (limit, lookup) ->
     return nil if @base_json == null
     # Papa.unparse string
-    string = ynab_cols.join(',') + "\n"
+    string = '\"' + ynab_cols.join('\",\"') + "\"\n"
     @.converted_json(limit, lookup).forEach (row) ->
       row_values = []
       ynab_cols.forEach (col) ->
         row_values.push row[col]
-      string += row_values.join(',') + "\n"
+      string += '\"' + row_values.join('\",\"') + "\"\n"
+
     string

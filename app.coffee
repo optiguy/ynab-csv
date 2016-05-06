@@ -15,8 +15,7 @@ angular.element(document).ready ->
           scope.$apply ->
             scope.fileread = loadEvent.target.result
 
-
-        reader.readAsText changeEvent.target.files[0]
+        reader.readAsText(changeEvent.target.files[0], 'windows-1252')
 
   ]
 
@@ -49,8 +48,7 @@ angular.element(document).ready ->
         reader.onload = (loadEvent) ->
           scope.$apply ->
             scope.dropzone = loadEvent.target.result
-
-        reader.readAsText event.dataTransfer.files[0]
+        reader.readAsText(event.dataTransfer.files[0], 'windows-1252')
 
   ]
 
@@ -61,12 +59,12 @@ angular.element(document).ready ->
     $scope.ynab_cols = ['Date','Payee','Category','Memo','Outflow','Inflow']
     $scope.data = {}
     $scope.ynab_map =
-      Date:     'Date'
-      Payee:    'Payee'
+      Date:     'Bogf¿rt'
+      Payee:    'Tekst'
       Category: 'Category'
-      Memo:     'Memo'
-      Outflow:  'Amount'
-      Inflow:   'Amount'
+      Memo:     'Saldo'
+      Outflow:  'Bel¿b'
+      Inflow:   'Bel¿b'
     $scope.data_object = new DataObject()
 
     $scope.$watch 'data.source', (newValue, oldValue) ->
