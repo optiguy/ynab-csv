@@ -30,16 +30,16 @@ class window.DataObject
 
   # Parse base csv file as JSON. This will be easier to work with.
   # It uses http://papaparse.com/ for handling parsing
-  parse_csv: (csv) -> @base_json = unescape(encodeURIComponent(Papa.parse(csv, {
+  parse_csv: (csv) -> @base_json = Papa.parse(csv, {
     "header": true,
     "delimiter": ';',
+    "dynamicTyping": true,
     "encoding": 'ISO-8859-1',
     "skipEmptyLines": true
-  })))
+  })
   fields: -> @base_json.meta.fields
   rows: -> @base_json.data
 
-s
   # This method converts base_json into a json file with YNAB specific fields based on
   #   which fields you choose in the dropdowns in the browser.
   #
