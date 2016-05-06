@@ -10,6 +10,7 @@ numberfy = (val) ->
 
   if isNaN(val)
     # replace any commas with colon because Danish!
+    val = val.replace(".", "")
     val = val.replace(/,/g, ".")
     # check for negative signs or parenthases.
     is_negative = if (val.match("-") || val.match(/\(.*\)/)) then -1 else 1
